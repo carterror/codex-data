@@ -1,0 +1,11 @@
+id,nombre,edad,salario,departamento,fecha_contratacion
+1,Juan Pérez,32,45000,Ventas,2018-05-12
+2,María López,28,52000,Tecnología,2019-03-15
+3,Carlos Rodríguez,41,62500,Finanzas,2015-11-30
+4,Ana Martínez,35,48000,Marketing,2017-08-22
+5,Roberto Sánchez,29,44000,Ventas,2020-01-10
+6,Laura García,38,59000,Recursos Humanos,2016-04-18
+7,Pedro Díaz,26,41000,Tecnología,2021-06-05
+8,Sofía Ruiz,33,53500,Marketing,2018-09-14
+9,Miguel Torres,44,65000,Finanzas,2014-07-20
+10,Isabel Vargas,31,47500,Recursos Humanos,2019-10-25

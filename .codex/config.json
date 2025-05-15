@@ -1,0 +1,16 @@
+{
+  "model": "o4-mini",
+  "provider": "openai",
+  "providers": {
+    "gemini": {
+      "name": "Gemini",
+      "baseURL": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "envKey": "AIzaSyDZvd6_YfDRGp4kz6zwTeW8dvQfjY4e5WQ"
+    }
+  },
+  "history": {
+    "maxSize": 1000,
+    "saveHistory": true,
+    "sensitivePatterns": []
+  }
+}
