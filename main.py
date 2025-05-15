@@ -23,7 +23,7 @@ Generate Python code using Pandas. Do not explain the code.
 # --- Codex CLI Adapter ---
 def query_codex(prompt: str) -> str:
     result = subprocess.call(
-        ["codex", "--provider", "gemini", "--approval-mode", "full-auto", prompt],
+        ["codex", "--approval-mode", "full-auto", prompt],
         text=True
     )
     return result.stdout
