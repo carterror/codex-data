@@ -22,11 +22,10 @@ Generate Python code using Pandas. Do not explain the code.
 
 # --- Codex CLI Adapter ---
 def query_codex(prompt: str) -> str:
-    result = subprocess.run(
+    result = subprocess.call(
         ["codex", "--provider", "gemini", "--approval-mode", "full-auto", prompt],
-        capture_output=True, text=True
+        text=True
     )
-    print(result)
     return result.stdout
 
 # --- Response Parser ---
